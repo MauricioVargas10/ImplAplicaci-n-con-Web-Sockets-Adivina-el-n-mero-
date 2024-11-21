@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>¡Adivina el Número!</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>¡Adivina el Número!</h1>
+            <p>Intenta adivinar el número secreto entre 1 y 100.</p>
+        </header>
+
+        <main>
+            <ul id="messages" class="messages"></ul>
+            <div class="input-section">
+                <input type="number" id="guess" placeholder="Ingresa tu número..." />
+                <button onclick="sendGuess()">¡Adivinar!</button>
+            </div>
+        </main>
+
+        <footer>
+            <p>Creado por Mauricio Vargas</p>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+

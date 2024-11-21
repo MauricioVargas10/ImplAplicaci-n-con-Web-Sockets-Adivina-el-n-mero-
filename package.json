@@ -1,0 +1,15 @@
+{
+  "name": "adivina-el-numero",
+  "version": "1.0.0",
+  "description": "Juego 'Adivina el número' con WebSockets usando Node.js",
+  "main": "server.js",
+  "dependencies": {
+    "ws": "^8.13.0"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "Mauricio",
+  "license": "MIT"
+}
+
